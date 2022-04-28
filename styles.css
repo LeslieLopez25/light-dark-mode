@@ -38,3 +38,49 @@ section {
     justify-content: center;
     padding: 2.5rem 0;
 }
+
+.toggle-btn {
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    border: 2px solid var(--body-color);
+    display: flex;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.toggle-btn i {
+    margin: auto;
+    font-size: 2rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 120rem;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    background-color: var(--foreground-color);
+    box-shadow: .5rem .5rem 1rem rgba(0, 0, 0, .05);
+}
+
+.content-image {
+    flex: 1;
+}
+
+.content-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mix-blend-mode: var(--blend-mode);
+}
+
+.content-text {
+    flex: 1;
+    padding: 5rem;
+}
