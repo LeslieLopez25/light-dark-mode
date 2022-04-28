@@ -23,3 +23,18 @@ html {
     --foreground-color: #211f2a;
     --blend-mode: lighten;
 }
+
+body {
+    background-color: var(--background-color);
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    color: var(--body-color);
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem 0;
+}
