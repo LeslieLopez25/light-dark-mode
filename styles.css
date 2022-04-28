@@ -84,3 +84,29 @@ section {
     flex: 1;
     padding: 5rem;
 }
+
+.title {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 5rem;
+    color: var(--title-color);
+}
+
+.subtitle {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: .5rem 0 .5rem;
+}
+
+.paragraph:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+.cta {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid var(--body-color);
+    color: var(--body-color);
+    padding: 1rem 2.5rem;
+    margin-top: 2.5rem;
+}
