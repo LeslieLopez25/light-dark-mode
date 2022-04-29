@@ -8,5 +8,5 @@
 
 ### Screenshots
 
-<img src="/screenshot/dark.png" width="400">
-<img src="/screenshot/light.png" width="400">
+<img src="/screenshots/dark.png" width="400">
+<img src="/screenshots/light.png" width="400">
